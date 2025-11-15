@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaSify</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">SaaSify</div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <a href="#features">Fonctionnalités</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1 id="hero-text"></h1>
+        <p>Boostez votre productivité avec notre SaaS futuriste et intuitif.</p>
+        <a href="#pricing" class="cta-btn">Commencez maintenant</a>
+        <div class="hero-blobs">
+            <div class="blob blob1"></div>
+            <div class="blob blob2"></div>
+            <div class="blob blob3"></div>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Fonctionnalités</h2>
+        <div class="features">
+            <div class="feature-card">
+                <div class="icon"><img src="images/analytics.svg" alt="Analytics"></div>
+                <h3>Analyse en temps réel</h3>
+                <p>Suivez vos performances instantanément et prenez les bonnes décisions.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon"><img src="images/collaboration.svg" alt="Collaboration"></div>
+                <h3>Collaboration simplifiée</h3>
+                <p>Travaillez en équipe avec des outils intégrés et intuitifs.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon"><img src="images/security.svg" alt="Security"></div>
+                <h3>Sécurité avancée</h3>
+                <p>Vos données sont protégées avec les standards les plus stricts.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>Nos Plans</h2>
+        <div class="pricing-toggle">
+            <span>Mensuel</span>
+            <label class="switch">
+                <input type="checkbox" id="billing-toggle">
+                <span class="slider round"></span>
+            </label>
+            <span>Annuel</span>
+        </div>
+        <div class="pricing-container">
+            <div class="plan">
+                <h3>Basic</h3>
+                <p class="price">€10</p>
+                <ul>
+                    <li>5 projets</li>
+                    <li>Support basique</li>
+                    <li>Accès limité aux outils</li>
+                </ul>
+                <button>Choisir</button>
+            </div>
+            <div class="plan popular">
+                <h3>Pro</h3>
+                <p class="price">€30</p>
+                <ul>
+                    <li>50 projets</li>
+                    <li>Support premium</li>
+                    <li>Accès complet aux outils</li>
+                </ul>
+                <button>Choisir</button>
+            </div>
+            <div class="plan">
+                <h3>Enterprise</h3>
+                <p class="price">€80</p>
+                <ul>
+                    <li>Projets illimités</li>
+                    <li>Support dédié</li>
+                    <li>Fonctionnalités avancées</li>
+                </ul>
+                <button>Choisir</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <h2>FAQ</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="question">Comment puis-je commencer ?</div>
+                <div class="answer">Cliquez sur le bouton "Commencez maintenant" et choisissez votre plan.</div>
+            </div>
+            <div class="faq-item">
+                <div class="question">Puis-je changer de plan plus tard ?</div>
+                <div class="answer">Oui, vous pouvez changer de plan à tout moment depuis votre compte.</div>
+            </div>
+            <div class="faq-item">
+                <div class="question">Quels modes de paiement sont acceptés ?</div>
+                <div class="answer">Cartes bancaires, PayPal et virements SEPA.</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Nom" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <p>Ou contactez-nous sur :
+            <a href="#contact" class="social-link">Twitter</a> |
+            <a href="#contact" class="social-link">LinkedIn</a> |
+            <a href="#contact" class="social-link">GitHub</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2025 SaaSify. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
